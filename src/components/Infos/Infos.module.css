@@ -1,0 +1,45 @@
+.infos {
+  margin-top: 100px;
+  display: flex;
+  width: 100%;
+  max-width: 700px;
+  justify-content: space-between;
+  border-bottom: 1px solid var(--gray-400);
+  padding-bottom: 1.5rem;
+}
+
+@media (max-width: 500px) {
+  .infos {
+    flex-direction: column;
+    gap: 20px;
+  }
+}
+
+.tasks,
+.finished {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.tasks p {
+  color: var(--blue);
+  font-weight: 700;
+}
+
+.finished p {
+  color: var(--purple);
+  font-weight: 700;
+}
+
+.tasks span,
+.finished span {
+  display: flex;
+  justify-content: center;
+  color: var(--gray-200);
+  background: var(--gray-400);
+  width: max-content;
+  border-radius: 8px;
+  padding: 8px;
+  font-weight: 700;
+}
