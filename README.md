@@ -5,9 +5,7 @@ Projeto do curso de React Completo da Rocketseat. O objetivo era criar uma lista
 ## 💻 Tecnologias
 - ReactJS
 - TypeScript
-- Styled Components
-- Zod
-- React Hook Form
+- CSS modules
   
 
 ## ⚙️ Funcionalidades
